@@ -1,13 +1,13 @@
 Bash Port Komut Fonksiyonu
-Bu proje, kullanıcıların port numarasını girerek Python HTTP sunucusunu başlatmalarına olanak tanıyan bir Bash fonksiyonu sunar. Port numarası girilmezse, varsayılan olarak port 80 kullanılır. Fonksiyon, sudo yetkisi ile çalıştırılır, böylece gerekli izinler sağlanır.
+Bu proje, port numarasını girerek Python HTTP sunucusunu başlatmanıza olanak tanıyan bir Bash fonksiyonu sunar. Port numarası girilmezse, varsayılan olarak port 80 kullanılır. Fonksiyon sudo yetkisi ile çalıştırılır.
 
 Özellikler
-Port numarasını belirleyerek Python HTTP sunucusu başlatır.
-Port numarası girilmezse varsayılan olarak port 80 kullanılır.
-sudo ile çalıştırılarak gerekli izinler sağlanır.
+Port Numarası Girişi: Port numarasını belirleyerek Python HTTP sunucusu başlatabilirsiniz.
+Varsayılan Port: Port numarası girilmezse varsayılan olarak port 80 kullanılır.
+sudo İle Çalıştırma: Gerekli izinlerle sunucu başlatılır.
 Kurulum
-1. Bash veya Zsh Konfigürasyon Dosyasını Düzenleme
-Fonksiyonu kullanmak için .bashrc veya .zshrc dosyanıza ekleyin:
+1. .bashrc veya .zshrc Dosyasını Düzenleme
+Fonksiyonu kullanabilmek için .bashrc veya .zshrc dosyanıza ekleyin:
 
 Bash için:
 
@@ -50,15 +50,16 @@ bash
 Kodu kopyala
 source ~/.zshrc
 Kullanım
-Fonksiyonu çalıştırmak için terminale aşağıdaki komutu yazın:
+Terminalde aşağıdaki komutu çalıştırarak fonksiyonu kullanabilirsiniz:
 
 bash
 Kodu kopyala
 port
-Komutu çalıştırdığınızda port numarasını girmenizi isteyen bir mesaj göreceksiniz. Port numarasını girdikten sonra veya bir şey girmezseniz, Python HTTP sunucusu belirtilen portta sudo ile başlatılacaktır.
+Bu komutu yazdığınızda port numarasını girmenizi isteyen bir mesaj göreceksiniz. Port numarasını girdikten sonra veya varsayılan olarak port 80'i kullanarak Python HTTP sunucusu sudo ile başlatılır.
 
 Katkıda Bulunma
 Katkıda bulunmak isterseniz, lütfen bir pull request oluşturun veya önerilerinizi doğrudan paylaşın.
 
 Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakabilirsiniz.
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
+
