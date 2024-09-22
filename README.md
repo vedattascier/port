@@ -1,4 +1,4 @@
-# Bash Port Komut Fonksiyonu
+# Sunucu Komut Fonksiyonu
 
 <p>Bu proje, port numarasını girerek Python HTTP sunucusunu başlatmanıza olanak tanıyan bir Bash fonksiyonu sunar. Port numarası girilmezse, varsayılan olarak port 80 kullanılır. Fonksiyon <code>sudo</code> yetkisi ile çalıştırılır.</p>
 
@@ -29,7 +29,7 @@
 
 <p>Aşağıdaki fonksiyonu dosyanıza ekleyin:</p>
 
-<pre><code>port() {
+<pre><code>sunucu() {
     # Port numarasını girme işlemi
     echo -n "Port numarasını girin (varsayılan 80): "
     read port_number
