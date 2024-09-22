@@ -60,7 +60,7 @@
 
 <p>Terminalde aşağıdaki komutu çalıştırarak fonksiyonu kullanabilirsiniz:</p>
 
-<pre><code>port
+<pre><code>sunucu
 </code></pre>
 
 <p>Bu komutu yazdığınızda port numarasını girmenizi isteyen bir mesaj göreceksiniz. Port numarasını girdikten sonra veya varsayılan olarak port 80'i kullanarak Python HTTP sunucusu <code>sudo</code> ile başlatılır.</p>
